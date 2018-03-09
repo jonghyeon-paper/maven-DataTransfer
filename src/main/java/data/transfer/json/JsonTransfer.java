@@ -48,6 +48,10 @@ public class JsonTransfer implements ObjectTransfer {
 	}
 	
 	private JsonDataWrapper updateData(JsonDataWrapper pastData) throws DataTransferException {
+		if (pastData.getVersion() != null && presentVersion.equals(pastData.getVersion())) {
+			return pastData;
+		}
+		
 		JsonDataWrapper newVersion = null;
 		if (pastData.getVersion() == null || "".equals(pastData.getVersion())) {
 			newVersion = new JsonVersion100(pastData);
