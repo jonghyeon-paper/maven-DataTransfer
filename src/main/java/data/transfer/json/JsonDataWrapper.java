@@ -2,6 +2,11 @@ package data.transfer.json;
 
 import data.transfer.archetype.DataWrapper;
 
+/**
+ * JSON 타입의 데이터를 감싸는 구조체
+ * @author jonghyeon
+ *
+ */
 public abstract class JsonDataWrapper implements DataWrapper {
 	
 	/**

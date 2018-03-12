@@ -2,6 +2,11 @@ package data.transfer.archetype;
 
 import data.transfer.exception.DataTransferException;
 
+/**
+ * 데이터 변형 프로세스 원형타입
+ * @author jonghyeon
+ *
+ */
 public interface ObjectTransfer {
 	
 	/**

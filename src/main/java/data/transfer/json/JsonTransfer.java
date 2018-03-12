@@ -13,6 +13,11 @@ import data.transfer.json.object.JsonVersion101;
 import data.transfer.json.object.JsonVersion110;
 import data.transfer.json.object.JsonVersion200;
 
+/**
+ * JSON데이터 변형 클래스
+ * @author jonghyeon
+ *
+ */
 public class JsonTransfer implements ObjectTransfer {
 	
 	private String presentVersion;

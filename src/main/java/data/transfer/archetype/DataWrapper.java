@@ -2,6 +2,11 @@ package data.transfer.archetype;
 
 import data.transfer.exception.DataTransferException;
 
+/**
+ * 데이터를 감싸는 구조체
+ * @author jonghyeon
+ *
+ */
 public interface DataWrapper {
 	
 	/**
